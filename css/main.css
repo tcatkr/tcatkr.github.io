@@ -42,11 +42,6 @@ hr.small {
   border-radius: 3px;
 }
 
-.container {
-    width: 1170px;
-	background: #FFF;
-}
-
 .main-content {
   padding-top: 80px;
 }
@@ -249,12 +244,6 @@ footer {
   font-size: 14px;
   background-image: url("/img/stardust.png");
   color: #ffffff;
-}
-
-.row {
-    margin-right: -15px;
-    margin-left: -15px;
-	background-image: url("/img/stardust.png");
 }
 
 footer a {
