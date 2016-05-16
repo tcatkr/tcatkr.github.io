@@ -1,4 +1,12 @@
-# Beautiful Jekyll
+# Melyanna.github.io
+
+This is the repository of my Jekyll/GitHub blog.
+The template is based on [Beautiful Jekyll](http://deanattali.com/beautiful-jekyll) by [Dean Attali](http://deanattali.com/aboutme#contact).
+
+I have left below the original instructions and notes for this theme.
+
+___
+=======
 
 **Beautiful Jekyll** is a ready-to-use template to help you create an awesome website quickly. Perfect for personal blogs or simple project websites.  [Check out a demo](http://deanattali.com/beautiful-jekyll) of what you'll get after just two minutes.  You can look at [my personal website](http://deanattali.com) to see it in use, or see examples of websites other people created using this theme [here](#featured-users).
 
