@@ -251,6 +251,12 @@ footer {
   color: #ffffff;
 }
 
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+	background-image: url("/img/stardust.png");
+}
+
 footer a {
   color: #B27FB2;
 }
