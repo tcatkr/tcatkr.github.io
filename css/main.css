@@ -42,6 +42,11 @@ hr.small {
   border-radius: 3px;
 }
 
+.container {
+    width: 1170px;
+	background: #FFF;
+}
+
 .main-content {
   padding-top: 80px;
 }
