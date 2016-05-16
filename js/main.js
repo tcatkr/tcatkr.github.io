@@ -1,5 +1,13 @@
-// Dean Attali / Beautiful Jekyll 2016
+// Dean Attali / Beautiful Jekyll 2015
 
+<<<<<<< HEAD
+// Shorten the navbar after scrolling a little bit down
+$(window).scroll(function() {
+    if ($(".navbar").offset().top > 50) {
+        $(".navbar").addClass("top-nav-short");
+    } else {
+        $(".navbar").removeClass("top-nav-short");
+=======
 var main = {
 
   bigImgEl : null,
@@ -109,30 +117,20 @@ var main = {
 	  if (main.numImgs > 1) {
   	    getNextImg();
 	  }
+>>>>>>> refs/remotes/daattali/master
     }
-  },
-  
-  getImgInfo : function() {
-  	var randNum = Math.floor((Math.random() * main.numImgs) + 1);
-    var src = main.bigImgEl.attr("data-img-src-" + randNum);
-	var desc = main.bigImgEl.attr("data-img-desc-" + randNum);
-	
-	return {
-	  src : src,
-	  desc : desc
-	}
-  },
-  
-  setImg : function(src, desc) {
-	$(".intro-header.big-img").css("background-image", 'url(' + src + ')');
-	if (typeof desc !== typeof undefined && desc !== false) {
-	  $(".img-desc").text(desc).show();
-	} else {
-	  $(".img-desc").hide();  
-	}
-  }
-};
+});
 
+// On mobile, hide the avatar when expanding the navbar menu
+$('#main-navbar').on('show.bs.collapse', function () {
+  $(".navbar").addClass("top-nav-expanded");
+})
+$('#main-navbar').on('hidden.bs.collapse', function () {
+  $(".navbar").removeClass("top-nav-expanded");
+})
+
+<<<<<<< HEAD
 // 2fc73a3a967e97599c9763d05e564189
-
+=======
 document.addEventListener('DOMContentLoaded', main.init);
+>>>>>>> refs/remotes/daattali/master

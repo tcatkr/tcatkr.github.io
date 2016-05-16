@@ -1,0 +1,40 @@
+- id: gallery1
+  description: It's spring! Yay!
+  imagefolder: /img/22032016
+  images:
+  - name: image-1.jpg
+    thumb: thumb-1.jpg
+    text: I love running on the path between those two lines of trees!
+  - name: image-2.jpg
+    thumb: thumb-2.jpg
+    text: These are the remains of an old building. They would look great as a background for a painting.
+  - name: image-3.jpg
+    thumb: thumb-3.jpg
+    text: Again, from a different angle.
+  - name: image-4.jpg
+    thumb: thumb-4.jpg
+    text: I love how the tree branches create stark shapes against the blue sky.
+  - name: image-5.jpg
+    thumb: thumb-5.jpg
+    text: ...And the ruins again, from the front. It looks like a magical door.
+  - name: image-6.jpg
+    thumb: thumb-6.jpg
+    text: I love open spaces, and how you can see the bridge in the distance.
+  - name: image-7.jpg
+    thumb: thumb-7.jpg
+    text: And here is the view from that bridge.
+  - name: image-8.jpg
+    thumb: thumb-8.jpg
+    text: This is one of the many artificial water-ways that you can find in my area. Leonardo Da Vinci designed some of those.
+  - name: image-9.jpg
+    thumb: thumb-9.jpg
+    text: I love the view from this old bridge.
+  - name: image-10.jpg
+    thumb: thumb-10.jpg
+    text: Another old ruined building. This is home to many birds.
+  - name: image-11.jpg
+    thumb: thumb-11.jpg
+    text: Some more trees drawing shapes against the sky.
+  - name: image-12.jpg
+    thumb: thumb-12.jpg
+    text: And here are some lovely wild flowers!
