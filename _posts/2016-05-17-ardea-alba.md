@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ardea Alba
-subtitle: Fantasy illustration. Gel pens on parchment paper.
+subtitle: Illustration. Pencils on parchment paper.
 tags: art
 ---
 
