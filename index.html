@@ -18,7 +18,7 @@ subtitle: Virtual scrapbook for illustrations, random ramblings, and experiments
     </a>
 
     <p class="post-meta">
-      Posted on {{ post.date | date: "%B %-d, %Y" }}. . Tagged: {% if page.tags == null %} Not tagged. {% else %} {% for tag in page.tags %}<a href="/tags#{{ tag | slugify }}-ref"> • {{ tag | capitalize}}</a>{% endfor %}{% endif %}
+      Posted on {{ post.date | date: "%B %-d, %Y" }}
     </p>
   
     <div class="post-entry">
