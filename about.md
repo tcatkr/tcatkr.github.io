@@ -6,7 +6,7 @@ subtitle: Global Submission Manager @ 505 Games. Vegetarian, whovian, metaller. 
 
 # Who is Melyanna?
 
-<img src="/img/fluffy_avatar.jpg" alt="Picture of a cat in front of a pc" align="left" style="PADDING-RIGHT: 10px" /> I am an old cat lady who spends way too much time daydreaming.
+<img src="/img/avatar/fluffy_avatar.jpg" alt="Picture of a cat in front of a pc" align="left" style="PADDING-RIGHT: 10px" /> I am an old cat lady who spends way too much time daydreaming.
 
 I work in the video games industry and enjoy my job very much.
 
