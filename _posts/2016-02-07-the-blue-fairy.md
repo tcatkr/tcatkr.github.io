@@ -5,7 +5,7 @@ subtitle: Fantasy illustration. Gel pens on parchment paper.
 tags: art
 ---
 
-<img src="/img/fata.jpg" alt="drawing of a fairy with blue hair and golden eyes" align="center"/> 
+<img src="/img/02072016/fata.jpg" alt="drawing of a fairy with blue hair and golden eyes" align="center"/> 
 
 
 

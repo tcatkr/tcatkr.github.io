@@ -5,7 +5,7 @@ subtitle: ... but I am back. Hopefully.
 tags: [Chelsea football club, travel, work, personal]
 ---
 
-<img src="/img/03072016/chelseat.jpg" alt="Chelsea stadium" align="left" style="PADDING-RIGHT: 15px; padding-bottom: 15px;"/> It's been quite some time since my last update, and I feel a little guilty for temporarily abandoning this blog.
+<img src="/img/07032016/chelseat.jpg" alt="Chelsea stadium" align="left" style="PADDING-RIGHT: 15px; padding-bottom: 15px;"/> It's been quite some time since my last update, and I feel a little guilty for temporarily abandoning this blog.
 I have many things to do and little energy to do them and I had to go on a work trip last week, which didn't really help, so all of my projects ended up being on hold.
 
 

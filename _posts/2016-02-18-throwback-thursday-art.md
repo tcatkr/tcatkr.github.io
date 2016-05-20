@@ -5,7 +5,7 @@ subtitle: Tom Riddle. And old illustration.
 tags: [Tom Riddle, Harry Potter, art, TBT, Voldemort]
 ---
 
-<img src="/img/art/tom.jpg" alt="a pencil portrait of Tom Riddle" align="left" style="PADDING-RIGHT: 15px"/> For Throwback Thursday this week I will be sharing an old illustration of mine I am still quite happy with.
+<img src="/img/18022016/tom.jpg" alt="a pencil portrait of Tom Riddle" align="left" style="PADDING-RIGHT: 15px"/> For Throwback Thursday this week I will be sharing an old illustration of mine I am still quite happy with.
 
 This dates back to 2010, and it was done with pencils on simple A4 paper, then enhanced with a computer to add a background texture and some colour.
 

@@ -5,7 +5,7 @@ subtitle: Sketch. Roses. Pencils on parchment paper.
 tags: art
 ---
 
-<img src="/img/sketchdaily/roses.png" alt="sketch of two roses" align="center"/> 
+<img src="/img/09022016/roses.png" alt="sketch of two roses" align="center"/> 
 
 
 
