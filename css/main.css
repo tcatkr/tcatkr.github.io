@@ -8,7 +8,7 @@ body {
   color: #404040;
   position: relative;
   background: #FFF;
-  background-image: url("/img/noise.png");
+  background-image: url("/img/bg/noise.png");
   background-attachment: fixed;
 }
 p {
@@ -99,7 +99,7 @@ img {
   background: #F5F5F5;
   border-bottom: 1px solid #404040;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-image: url("/img/stardust.png");
+  background-image: url("/img/bg/stardust.png");
 }
 
 .navbar-custom .nav li a {
@@ -242,7 +242,7 @@ footer {
   border-top: 1px #EAEAEA solid;
   margin-top: 50px;
   font-size: 14px;
-  background-image: url("/img/stardust.png");
+  background-image: url("/img/bg/stardust.png");
   color: #ffffff;
 }
 
