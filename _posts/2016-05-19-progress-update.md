@@ -19,7 +19,7 @@ So, behold the comeback of the mighty "Todo list":
 * Start jogging again. I need to come to terms that the benefits of running are much greater than the things I have to give up to do it (ie: sleeping and reading).
 * Update my Goodreads account.
 * Restore the tags, add preview images to posts, restore the share buttons, add a gallery for images.
-* Add a subsription button.
+* Add a subscription button.
 
 The first few entries are the same of a previous update. This isn't a mistake: it's just I haven't done anything on the list so far.
 Looking at the planned updates I have for this blog, something tells me that I'll have to move from Github Pages to creating my blog locally: plugins would make thins 10000 times easier.
