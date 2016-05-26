@@ -16,7 +16,7 @@ Here is a list of things from the previous week that I was able to do:
 * Cleanup my inbox.
 * Restore the tags and share buttons to this blog. I am still unhappy with the share buttons (I am using an external service now, and they load slowly), but they do their job so far.
 
-So, behold the comeback of the mighty "Todo list":
+And here is my most up to date "Todo list":
 
 * Continue my Python course on [Code Academy](https://www.codecademy.com/Melyanna).
 * Finish my Twine projects (and start one in English that I can share with more people).
