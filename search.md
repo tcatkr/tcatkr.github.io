@@ -4,6 +4,7 @@ title: Search
 subtitle: Feeling lost? Look for things in my blog.
 ---
 
+
 <script>
   (function() {
     var cx = '005036231896853323962:4xmqe7fiq7q';
