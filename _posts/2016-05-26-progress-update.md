@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Progress update, may 26
+title: Progress update, May 26
 subtitle: Weekly progress update on this blog and life in general...
 tags: [personal, this blog, progress update]
 ---
