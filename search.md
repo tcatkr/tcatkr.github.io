@@ -4,6 +4,7 @@ title: Search
 subtitle: Feeling lost? Look for things in my blog.
 ---
 
+This blog uses [google search](http://google.com/cse).
 
 <script>
   (function() {
