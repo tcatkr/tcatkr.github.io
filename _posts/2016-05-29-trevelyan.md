@@ -1,7 +1,7 @@
 ---
 layout: post
-title: WIP Potrait
-subtitle: A work in progress portrait. Pencils on parchment paper.
+title: Evelyn Trevelyan
+subtitle: Portrait done with colored pencils on parchment paper.
 tags: art
 ---
 
