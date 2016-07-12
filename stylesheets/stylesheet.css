@@ -769,6 +769,7 @@ footer a:hover {
 
 li.social {
 	display: inline-block;
+	margin-right:2px;
 }
 
 ul.socialnav {
