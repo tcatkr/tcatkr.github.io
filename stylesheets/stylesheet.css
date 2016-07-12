@@ -767,7 +767,7 @@ footer a:hover {
   content: '.';
 }
 
-li.social {
+ul.fa-ul {
     display: inline-block;
 }
 
