@@ -767,6 +767,10 @@ footer a:hover {
   content: '.';
 }
 
+li.social {
+    display: inline;
+}
+
 .clearfix {display: inline-block;}
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
