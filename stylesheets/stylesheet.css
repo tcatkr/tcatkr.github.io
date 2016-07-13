@@ -767,25 +767,10 @@ footer a:hover {
   content: '.';
 }
 
-/* .list-group-item:first-child {
-    border-top-right-radius: 4px;
-    border-top-left-radius: 4px;
-} */
-
-/* a.list-group-item, button.list-group-item {
-    color: #9ddcff;
-}
-.list-group-item {
-    position: relative;
-    display: block;
-    padding: 10px 15px;
-    margin-bottom: -1px;
+.si {
+	margin-right: 5px:
 	margin-bottom: 5px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-	border-radius: 50px;
-	background: #2e7bcf url(../images/stardust.png) 0 0 repeat-x;
-} */
+}
 
 .clearfix {display: inline-block;}
 * html .clearfix {height: 1%;}
