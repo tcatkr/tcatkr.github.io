@@ -767,27 +767,14 @@ footer a:hover {
   content: '.';
 }
 
-li.social {
-	display: inline-block;
-	margin-right:2px;
-}
-
-ul.socialnav {
-	padding: 0;
-}
-
-.list-group {
-    margin-bottom: 20px;
-    padding-left: 0;
-}
-
-.list-group-item:first-child {
+/* .list-group-item:first-child {
     border-top-right-radius: 4px;
     border-top-left-radius: 4px;
-}
-/* a.list-group-item, button.list-group-item {
-    color: #555;
 } */
+
+a.list-group-item, button.list-group-item {
+    color: #9ddcff;
+}
 .list-group-item {
     position: relative;
     display: block;
@@ -795,6 +782,8 @@ ul.socialnav {
     margin-bottom: -1px;
     /* background-color: #fff; */
     border: 1px solid #ddd;
+	border-radius: 10px;
+	background: #2e7bcf url(../images/stardust.png) 0 0 repeat-x;
 }
 
 .clearfix {display: inline-block;}
