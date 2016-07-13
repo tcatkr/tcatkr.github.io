@@ -82,13 +82,15 @@ Halfway, there is a [[Door 2]].
 The corridor turns [[North Passage 1]].</tw-passagedata>
 <tw-passagedata pid="10" name="nofooter" tags="" position="0.0002,327">&lt;small&gt;&lt;a href=&quot;http://melyanna.github.io/&quot; target=&quot;_blank&quot;&gt;@Melyanna&lt;/a&gt; | &lt;a href=&quot;http://melyanna.net/&quot; target=&quot;_blank&quot;&gt;melyanna.net&lt;/a&gt; | &lt;a href=&quot;mailto:info@melyanna.net?Subject=Your%20Twine%20game&quot; target=&quot;_top&quot;&gt;Contact&lt;/a&gt;&lt;/small&gt;
 
-&lt;small&gt;© 2010–2016 Melyanna | This work is licensed under a &lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot; target=&quot;_blank&quot;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.&lt;/small&gt;</tw-passagedata>
+&lt;small&gt;© 2010–2016 Melyanna | This work is licensed under a &lt;a href=&quot;http://creativecommons.org/licenses/by-nc-sa/4.0/&quot; target=&quot;_blank&quot;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License&lt;/a&gt;.&lt;/small&gt;
+
+&lt;small&gt;Made with &lt;a href=&quot;http://twinery.org/&quot; target=&quot;_blank&quot;&gt;Twine 2.0&lt;/a&gt;&lt;/small&gt;</tw-passagedata>
 <tw-passagedata pid="11" name="Footer" tags="footer" position="0,454">(set: $tags to (passage:)&#39;s tags)\
 (if: not ($tags contains &quot;no-footer&quot;))[
 (display: &quot;yesfooter&quot;)]
 (else:)[(display: &quot;nofooter&quot;)]
 </tw-passagedata>
-<tw-passagedata pid="12" name="yesfooter" tags="" position="0.00020000000000331965,153">
+<tw-passagedata pid="12" name="yesfooter" tags="" position="0.00010000000000331966,157">
 &lt;small&gt;[[Restart|Startup]] | [Save]&lt;save| | [Load]&lt;restore|
 (click: ?save)[Done!(savegame: &quot;A&quot;,&quot;Test Save&quot;)]
 (click: ?restore)[Done!(loadgame: &quot;A&quot;)]&lt;/small&gt;</tw-passagedata>
