@@ -781,8 +781,8 @@ a.list-group-item, button.list-group-item {
     padding: 10px 15px;
     margin-bottom: -1px;
     /* background-color: #fff; */
-    border: 1px solid #ddd;
-	border-radius: 10px;
+    /* border: 1px solid #ddd; */
+	border-radius: 20px;
 	background: #2e7bcf url(../images/stardust.png) 0 0 repeat-x;
 }
 
