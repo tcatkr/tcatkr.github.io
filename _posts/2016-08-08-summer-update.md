@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Summer update.
-subtitle: Progress update and stuff.
+title: Summer update
+subtitle: Progress update and a couple of pictures.
 tags: [personal, projects, progress update]
 ---
 
