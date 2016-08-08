@@ -47,7 +47,7 @@ author:
   linkedin: yourlink  # eg. "pub/dean-attali/8/946/143"
   xing: yourname      # eg. daattali
   stackoverflow: yourlink  # eg. "3943160/daattali"
-  instagram: yourname # eg. daattali
+  instagram: oomelyannaoo # eg. daattali
 
 # Select which links to show in the footer
 footer-links-active:
@@ -59,17 +59,17 @@ footer-links-active:
   linkedin: false
   xing: false
   stackoverflow: false
-  instagram: false
+  instagram: true
 
 # Select which share links to show in posts
 share-links-active:
   twitter: true
   facebook: true
-  google: false
-  linkedin: true
+  google: true
+  linkedin: false
   xing: false
   stackoverflow: false
-  instagram: false
+  instagram: true
   
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
