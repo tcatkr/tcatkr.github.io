@@ -9,7 +9,7 @@ tags: [personal, projects, progress update]
 I had initially planned to use my week off to progress on my website, update this blog and do some more work on Twine, but I was so tired in the end I mostly slept and watched youtube videos.
 I did go to Turin one day and the visit was absolutely awesome! I really need to figure out a nicer way to share pictures in this blog: I didn't take many, but I really want to share them.
 
-I barely touched [my landing page](http://melyanna.net/), but I am a lot happier with it, even with those small changes, as it's starting to have its own character and doesn't look that much like the (awesome) standard template anymore.
+<img src="/img/08082016/run.jpg" alt="An old oven near a farm where I run" align="left" height="400" width="400" style="margin:5px"> I barely touched [my landing page](http://melyanna.net/), but I am a lot happier with it, even with those small changes, as it's starting to have its own character and doesn't look that much like the (awesome) standard template anymore.
 
 Even so, I feel like spending time with my family and relaxing has been totally worth the almost non existant progress with my "Todo list": I feel like I have the energy now to go back on track and pick up all the activities and goals I had set for myself.
 
