@@ -13,7 +13,8 @@ I did go to Turin one day and the visit was absolutely awesome! I really need to
 
 Even so, I feel like spending time with my family and relaxing has been totally worth the almost non existant progress with my "Todo list": I feel like I have the energy now to go back on track and pick up all the activities and goals I had set for myself.
 
-So here is my up to date "Todo list":
+
+So here is my up to date **"Todo list"**:
 
 * **Continue my Python course on [Code Academy](https://www.codecademy.com/Melyanna).** I haven't done anything to progress, but the code editor keeps freezing my browser, so I didn't touch the courses to avoid the frustration.
 * **Finish my Twine projects, and start one in English.** I haven't finished my old project, but I stared a new one in English and it's looking nice so far. I need to find the willpower to work on a couple of boring tasks before I can start sharing it.
