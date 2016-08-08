@@ -5,7 +5,7 @@ subtitle: Progress update and stuff.
 tags: [personal, projects, progress update]
 ---
 
-<img src="img/08082016/turin.jpg" alt="Turin" align="right"> Not as much progress as I wanted, but I am feeling very positive and optimistic, which is no doubt the result of the one week holiday I took last week: I really needed some time off to rest and decompress.
+<img src="/img/08082016/turin.jpg" alt="Turin" align="right"> Not as much progress as I wanted, but I am feeling very positive and optimistic, which is no doubt the result of the one week holiday I took last week: I really needed some time off to rest and decompress.
 I had initially planned to use my week off to progress on my website, update this blog and do some more work on Twine, but I was so tired in the end I mostly slept and watched youtube videos.
 I did go to Turin one day and the visit was absolutely awesome! I really need to figure out a nicer way to share pictures in this blog: I didn't take many, but I really want to share them.
 
