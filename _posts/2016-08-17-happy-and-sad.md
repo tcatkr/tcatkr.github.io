@@ -5,7 +5,7 @@ subtitle: ...and the things in between.
 tags: [personal]
 ---
 
-<img src="/img/17082016/WP_20160817_002.png" alt="countryside" style="margin:10px"> 
+<img src="/img/17082016/WP_20160817_002.png" alt="countryside"> 
 
 As I went for my morning walk today, I had to stop and admire the nature around me: I was stricken by how beautiful and green everything was.
 
