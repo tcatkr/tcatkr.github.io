@@ -182,9 +182,9 @@ A set of ascending [[stone stairs|Entrance]] are located on the west wall. Someo
 
 You can see a [[wooden door|Door 7]] on the north wall and an [[archway|Corridor 1]] on the east wall. You can barely see the outlines of a corridor through the arch.
 
-{(if: $inv contains &quot;spork&quot;)[]
-(else:)[There is a [spork]&lt;spork| 
-(click:?spork)[(set: $inv to $inv + (a: &quot;spork&quot;))]]}</tw-passagedata>
+{(if: $inv contains &quot;silver ring&quot;)[There is a little pool of mud on the ground.]
+(else:)[There is a shiny silver ring on the ground.] 
+(click-replace: &quot;a shiny silver ring&quot;)[(set: $inv to $inv + (a: &quot;silver ring&quot;))[a little pool of mud]]}</tw-passagedata>
 <tw-passagedata pid="4" name="Entrance" tags="" position="450,600">[[Go back to the town square|Town square]].
 [[Go downstairs|Room 1]]. </tw-passagedata>
 <tw-passagedata pid="5" name="Room 4" tags="room" position="451,181">
@@ -365,7 +365,7 @@ Go back to the [[town square|Town square]]</tw-passagedata>
 &lt;h3&gt;(link: &quot;↶&quot;)[(goto: (history:)&#39;s last)]&lt;/h3&gt;</tw-passagedata>
 <tw-passagedata pid="47" name="Equipment" tags="" position="308,152">You are carrying: (print: $inv.join(&quot;, &quot;)).
 
-[Close inventory]&lt;close|.
+[Close inventory]&lt;close|
 (click:?close)[(goto: (history:)&#39;s last)]</tw-passagedata>
 <tw-passagedata pid="48" name="Spellbook" tags="" position="6,257">Light
 Minor Illusion
@@ -374,7 +374,7 @@ Shocking Grasp
 Charm Person
 Magic Missile
 
-[Close spellbook]&lt;close|.
+[Close spellbook]&lt;close|
 (click:?close)[(goto: (history:)&#39;s last)]</tw-passagedata>
 <tw-passagedata pid="49" name="Adventurer&#39;s Guild board" tags="" position="141,736">&lt;div class=&quot;billboard&quot;&gt;&lt;i class=&quot;fa fa-thumb-tack&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
 
