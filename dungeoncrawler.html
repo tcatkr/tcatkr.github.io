@@ -363,7 +363,7 @@ Go back to the [[town square|Town square]]</tw-passagedata>
 (if: $level &gt; 1)[Made it past level 1!](else:)[This achievement is hidden.]
 &lt;/small&gt;
 &lt;h3&gt;(link: &quot;↶&quot;)[(goto: (history:)&#39;s last)]&lt;/h3&gt;</tw-passagedata>
-<tw-passagedata pid="47" name="Equipment" tags="" position="308,152">You are carrying: (print: $inv.join(&quot; * &quot;)).
+<tw-passagedata pid="47" name="Equipment" tags="" position="308,152">You are carrying: (print: $inv.join(&quot;, &quot;)).
 
 [Close inventory]&lt;close|.
 (click:?close)[(goto: (history:)&#39;s last)]</tw-passagedata>
