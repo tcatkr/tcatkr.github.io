@@ -86,8 +86,6 @@ img {
   max-width: 100%;
 }
 
-.highlighter{
-  background-image: linear-gradient(-100deg, rgba(255, 255, 255, 0), pink 85%, rgba(255, 255, 255, 0));
 }
 
 .disqus-comments {
