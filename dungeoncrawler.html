@@ -162,6 +162,7 @@ box-shadow: 0px 4px 6px #333;
 (set: $tavernroom to 0)
 (set: $inv to (a:))
 (set: $billboard to 0)
+(set: $days to 0)
 (set: $door1 to (datamap: &quot;material&quot;, &quot;wooden&quot;, &quot;status&quot;, &quot;locked&quot;))
 (set: $door2 to (datamap: &quot;material&quot;, &quot;wooden&quot;, &quot;status&quot;, &quot;locked&quot;))
 (set: $door3 to (datamap: &quot;material&quot;, &quot;wooden&quot;, &quot;status&quot;, &quot;locked&quot;))
@@ -183,7 +184,8 @@ You can see a [[wooden door|Door 7]] on the north wall and an [[archway|Corridor
 
 {(if: $inv contains &quot;silver ring&quot;)[There is a little pool of mud on the ground.]
 (else:)[There is a shiny silver ring on the ground.] 
-(click-replace: &quot;a shiny silver ring&quot;)[(set: $inv to $inv + (a: &quot;silver ring&quot;))[a little pool of mud]]}</tw-passagedata>
+(click-replace: &quot;a shiny silver ring&quot;)[(set: $inv to $inv + (a: &quot;silver ring&quot;))[a little pool of mud]]}
+</tw-passagedata>
 <tw-passagedata pid="4" name="Entrance" tags="" position="450,600">[[Go back to the town square|Town square]].
 [[Go downstairs|Room 1]]. </tw-passagedata>
 <tw-passagedata pid="5" name="Room 4" tags="room" position="451,181">
@@ -234,7 +236,7 @@ The corridor turns [[North Passage 1]].</tw-passagedata>
 &lt;hr&gt;
 &lt;h2&gt;The Temple of Abyssal Secrets&lt;/h2&gt;</tw-passagedata>
 <tw-passagedata pid="16" name="Version" tags="" position="757,0">[[0.0.1c|Release notes]]</tw-passagedata>
-<tw-passagedata pid="17" name="Info" tags="" position="504.0003,0">{(if: $class is &quot;None&quot;)[&lt;i class=&quot;fa fa-spinner fa-pulse fa-fw&quot;&gt;&lt;/i&gt;](else:)[$class] | XP: $xp | Level: $level | (if: $hp is -1)[&lt;i class=&quot;fa fa-spinner fa-pulse fa-fw&quot;&gt;&lt;/i&gt;](else:)[HP: $hp] | Coins: (text-colour: orange)[$gp gp] (if: $class is &quot;None&quot;)[](else:)[ | [[Equipment]]]}</tw-passagedata>
+<tw-passagedata pid="17" name="Info" tags="" position="504.0003,0">{(if: $class is &quot;None&quot;)[&lt;i class=&quot;fa fa-spinner fa-pulse fa-fw&quot;&gt;&lt;/i&gt;](else:)[$class] | XP: $xp | Level: $level | (if: $hp is -1)[&lt;i class=&quot;fa fa-spinner fa-pulse fa-fw&quot;&gt;&lt;/i&gt;](else:)[HP: $hp] | Coins: (text-colour: orange)[$gp gp] (if: $class is &quot;None&quot;)[](else:)[ | [[Equipment]]] | Days: $days}</tw-passagedata>
 <tw-passagedata pid="18" name="Door 2" tags="" position="600,750">This door is stuck.
 
 [[Go back|East passage 1]]</tw-passagedata>
@@ -308,6 +310,7 @@ Added a tavern and an alchemy shop, though they don&#39;t do anything.
 Added pages for Equipment and Spellbook (just listing items for now).
 Added the Adventurer&#39;s Guild Billboard where players can find quests.
 Updated the about page.
+Added count of days.
 &lt;/small&gt;
 &lt;h3&gt;(link: &quot;↶&quot;)[(goto: (history:)&#39;s last)]&lt;/h3&gt;</tw-passagedata>
 <tw-passagedata pid="36" name="Room 6" tags="room" position="750,300">[[Door 1]] </tw-passagedata>
@@ -346,11 +349,12 @@ Go back to [[the town square|Town square]].
 &lt;small&gt;The &lt;a href=&quot;http://twinery.org/forum/&quot; target=&quot;_blank&quot;&gt;Twine forums&lt;/a&gt; are the place were I went whenever I was stuck and needed help. They are truly brilliant.&lt;/small&gt;
 
 &lt;h3&gt;(link: &quot;↶&quot;)[(goto: (history:)&#39;s last)]&lt;/h3&gt;</tw-passagedata>
-<tw-passagedata pid="43" name="your room" tags="" position="300,350">When you wake up, you feel rested.
+<tw-passagedata pid="43" name="your room" tags="" position="300,350">{(if: $class is &quot;Mage&quot;)[(set: $hp to 10)](else-if: $class is &quot;Rogue&quot;)[(set: $hp to 10)](else:)[(set: $hp to 10)]}
+When you wake up, you feel rested.
 
 
 [Resume adventuring]&lt;wakeup|.
-(click:?wakeup)[(goto: (history:)&#39;s last)]</tw-passagedata>
+(click:?wakeup)[(set: $days to $days + 1)(goto: &quot;Tavern&quot;)]</tw-passagedata>
 <tw-passagedata pid="44" name="Stuve&#39;s Alchemy" tags="" position="0,650">Found on Scholar&#39;s Passage, in an adventurers quarter of narrow alleys and comfortable taverns. It stands next to the large home of a male elf named Lico.
 
 The shop is a two-storey stone-walled building, with a tiled mosaic floor. A small dragon&#39;s skull hangs over the hearth.
@@ -391,6 +395,7 @@ Successful adventurers will be rewarded with (text-colour: orange)[100 gp].
 
 [Go back to the town square]&lt;back|.
 {(click:?back)[(goto: (history:)&#39;s last)](click:?accept)[(set: $billboard to 1)(goto: (history:)&#39;s last)]}</tw-passagedata>
+<tw-passagedata pid="50" name="Random monster" tags="" position="1158,608">(print: (either: &quot;&quot;, &quot;A skeleton raises and starts walking towards you...&quot;, &quot;A corpse stands up and slowly walks towards you...&quot;, &quot;An imp flies from the ceiling and attacks you... &quot;))</tw-passagedata>
 </tw-storydata>
 
 
