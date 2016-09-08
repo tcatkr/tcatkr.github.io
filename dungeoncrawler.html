@@ -160,6 +160,7 @@ box-shadow: 0px 4px 6px #333;
 (set: $hp to -1)
 (set: $gp to 15)
 (set: $tavernroom to 0)
+(set: $potion to 0)
 (set: $inv to (a:))
 (set: $billboard to 0)
 (set: $days to 0)
@@ -219,6 +220,9 @@ The corridor turns [[North Passage 1]].</tw-passagedata>
 (else:)[(display: &quot;nofooter&quot;)]}</tw-passagedata>
 <tw-passagedata pid="12" name="yesfooter" tags="" position="4.0001999999999995,125">
 {(if: ($class is &quot;Mage&quot; and $tags contains &quot;room&quot;))[[[Cast a spell|Spellbook]]]
+(if: $potion &gt; 0 and $tags contains &quot;room&quot;) [Use healing potion]&lt;drink|
+  (click: ?drink)[(if: $hp &lt; 9 and $class is &quot;Warrior&quot;)[Hit points restored!(set: $potion to $potion - 1)(set: $hp to 10)](else-if: $hp &lt; 8 and $class is &quot;Rogue&quot;)[Hit points restored!(set: $potion to $potion - 1)(set: $hp to 8)](else-if: $hp &lt; 6 and $class is &quot;Mage&quot;)[Hit points restored!(set: $potion to $potion - 1)(set: $hp to 8)]
+  (else:)[You don&#39;t need to drink this!]]
 (if: ($tags contains &quot;room&quot;))[(display: &quot;Setup Camp&quot;)]}
 &lt;hr&gt;
 &lt;small&gt;[[Restart|Startup]] | [Save]&lt;save| | [Load]&lt;restore|
@@ -285,9 +289,9 @@ Rogues can pick locks, use some magic objects and are better at detecting hidden
 
 [Warrior]&lt;warrior| 
 Warriors can bash objects. They have more hit points than mages and rogues, and are proficient at hand to hand combat.
-{(click: ?mage)[(set: $class to &quot;Mage&quot;)(set: $hp to 6)(set: $inv to $inv + (a: &quot;spellbook&quot;))(goto: &quot;Town square&quot;)]
-(click: ?rogue)[(set: $class to &quot;Rogue&quot;)(set: $hp to 8)(set: $inv to $inv + (a: &quot;thieves tools&quot;))(goto: &quot;Town square&quot;)]
-(click: ?warrior)[(set: $class to &quot;Warrior&quot;)(set: $hp to 10)(set: $inv to $inv + (a: &quot;sword&quot;))(goto: &quot;Town square&quot;)]}</tw-passagedata>
+{(click: ?mage)[(set: $class to &quot;Mage&quot;)(set: $hp to 6)(set: $inv to $inv + (a: &quot;spellbook&quot;, &quot;cloth armor&quot;))(goto: &quot;Town square&quot;)]
+(click: ?rogue)[(set: $class to &quot;Rogue&quot;)(set: $hp to 8)(set: $inv to $inv + (a: &quot;thieves tools&quot;, &quot;leather armor&quot;))(goto: &quot;Town square&quot;)]
+(click: ?warrior)[(set: $class to &quot;Warrior&quot;)(set: $hp to 10)(set: $inv to $inv + (a: &quot;sword&quot;, &quot;chain mail armor&quot;))(goto: &quot;Town square&quot;)]}</tw-passagedata>
 <tw-passagedata pid="35" name="Release notes" tags="no-footer no-header" position="882.0001,2">&lt;small&gt;&#39;&#39;0.0.1&#39;&#39;
 Added room structure.
 
@@ -311,13 +315,15 @@ Added pages for Equipment and Spellbook (just listing items for now).
 Added the Adventurer&#39;s Guild Billboard where players can find quests.
 Updated the about page.
 Added count of days.
+It is now possible to buy healing potions.
 &lt;/small&gt;
 &lt;h3&gt;(link: &quot;↶&quot;)[(goto: (history:)&#39;s last)]&lt;/h3&gt;</tw-passagedata>
 <tw-passagedata pid="36" name="Room 6" tags="room" position="750,300">[[Door 1]] </tw-passagedata>
 <tw-passagedata pid="37" name="Setup Camp" tags="" position="1007.0002,0">
 [[Set up camp|Camp]]
 </tw-passagedata>
-<tw-passagedata pid="38" name="Camp" tags="" position="1133,3">You feel rested.
+<tw-passagedata pid="38" name="Camp" tags="" position="1133,3">{(if: $class is &quot;Mage&quot;)[(set: $hp to 10)](else-if: $class is &quot;Rogue&quot;)[(set: $hp to 10)](else:)[(set: $hp to 10)]}
+You feel rested.
 
 [Resume adventuring]&lt;wakeup|.
 (click:?wakeup)[(goto: (history:)&#39;s last)]</tw-passagedata>
@@ -328,7 +334,7 @@ Here is a list of places that you can visit:
 [[Holfo&#39;s Vault]]
 [[Stuve&#39;s Alchemy]]
 (display: &quot;To the tavern&quot;)
-[[Adventurer&#39;s Guild board]]
+[[Adventurer&#39;s Guild]]
 (if: $billboard is 1)[[[The dungeon|Entrance]]]
 </tw-passagedata>
 <tw-passagedata pid="40" name="To the tavern" tags="" position="151,580">[[The Toad&#39;s Ale House|Tavern]]</tw-passagedata>
@@ -361,12 +367,18 @@ The shop is a two-storey stone-walled building, with a tiled mosaic floor. A sma
 
 The shopkeeper is a short dwarf named Stuve. He was once an adventurer, but retired to marry and raise a family.
 
-Go back to the [[town square|Town square]]</tw-passagedata>
+{(if: $gp &gt; 9)[[Healing potion]&lt;buy_potion| ((text-colour: orange)[10 gp], heals 5 hp)]
+(else:)[(text-colour: grey)[Healing potion (10 gp, heals 5 hp)]]
+(click: ?buy_potion)[(set: $potion to $potion + 1)(set: $gp to $gp - 10)(set: $inv to $inv + (a: &quot;potions: $potion&quot;))(goto: &quot;Stuve&#39;s Alchemy&quot;)]}
+
+Go back to the [[town square|Town square]].
+
+</tw-passagedata>
 <tw-passagedata pid="45" name="Holfo&#39;s Vault" tags="" position="300,800">The shop is a two-storey building of polished marble, with several stained glass windows and a tiled mosaic floor. It is brightly lit by magical candles and chandeliers.
 
 The shopkeeper is an old halfling named Holfo. He treats his wares like living creatures.
 
-Go back to the [[town square|Town square]]</tw-passagedata>
+Go back to the [[town square|Town square]].</tw-passagedata>
 <tw-passagedata pid="46" name="Achievements" tags="" position="150,150">&lt;small&gt;
 (if: $level &gt; 1)[Made it past level 1!](else:)[This achievement is hidden.]
 &lt;/small&gt;
@@ -384,7 +396,7 @@ Magic Missile
 
 [Close spellbook]&lt;close|
 (click:?close)[(goto: (history:)&#39;s last)]</tw-passagedata>
-<tw-passagedata pid="49" name="Adventurer&#39;s Guild board" tags="" position="141,736">&lt;div class=&quot;billboard&quot;&gt;&lt;i class=&quot;fa fa-thumb-tack&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
+<tw-passagedata pid="49" name="Adventurer&#39;s Guild" tags="" position="141,736">&lt;div class=&quot;billboard&quot;&gt;&lt;i class=&quot;fa fa-thumb-tack&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
 
 Adventurers wanted!
 
