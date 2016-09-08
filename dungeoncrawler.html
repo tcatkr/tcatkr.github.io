@@ -322,11 +322,11 @@ It is now possible to buy healing potions.
 <tw-passagedata pid="37" name="Setup Camp" tags="" position="1007.0002,0">
 [[Set up camp|Camp]]
 </tw-passagedata>
-<tw-passagedata pid="38" name="Camp" tags="" position="1133,3">{(if: $class is &quot;Mage&quot;)[(set: $hp to 10)](else-if: $class is &quot;Rogue&quot;)[(set: $hp to 10)](else:)[(set: $hp to 10)]}
+<tw-passagedata pid="38" name="Camp" tags="" position="1133,3">{(if: $class is &quot;Mage&quot;)[(set: $hp to 6)](else-if: $class is &quot;Rogue&quot;)[(set: $hp to 8)](else:)[(set: $hp to 10)]}
 You feel rested.
 
 [Resume adventuring]&lt;wakeup|.
-(click:?wakeup)[(goto: (history:)&#39;s last)]</tw-passagedata>
+(click:?wakeup)[(set: $days to $days + 1)(goto: (history:)&#39;s last)]</tw-passagedata>
 <tw-passagedata pid="39" name="Town square" tags="" position="300,650">&#39;&#39;Town Square&#39;&#39;
 
 Here is a list of places that you can visit:
@@ -355,7 +355,7 @@ Go back to [[the town square|Town square]].
 &lt;small&gt;The &lt;a href=&quot;http://twinery.org/forum/&quot; target=&quot;_blank&quot;&gt;Twine forums&lt;/a&gt; are the place were I went whenever I was stuck and needed help. They are truly brilliant.&lt;/small&gt;
 
 &lt;h3&gt;(link: &quot;↶&quot;)[(goto: (history:)&#39;s last)]&lt;/h3&gt;</tw-passagedata>
-<tw-passagedata pid="43" name="your room" tags="" position="300,350">{(if: $class is &quot;Mage&quot;)[(set: $hp to 10)](else-if: $class is &quot;Rogue&quot;)[(set: $hp to 10)](else:)[(set: $hp to 10)]}
+<tw-passagedata pid="43" name="your room" tags="" position="300,350">{(if: $class is &quot;Mage&quot;)[(set: $hp to 6)](else-if: $class is &quot;Rogue&quot;)[(set: $hp to 8)](else:)[(set: $hp to 10)]}
 When you wake up, you feel rested.
 
 
