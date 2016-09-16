@@ -44,11 +44,14 @@ author:
   facebook: yourname  # eg. daattali
   github: melyanna    # eg. daattali
   twitter: OoMelyannaoO   # eg. daattali
+  google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
   linkedin: yourlink  # eg. "pub/dean-attali/8/946/143"
   xing: yourname      # eg. daattali
   stackoverflow: yourlink  # eg. "3943160/daattali"
+  snapchat: yourname  # eg. daattali
   instagram: oomelyannaoo # eg. daattali
   youtube: yourlink # eg. user/daattali or channel/daattali
+  spotify: yourname   # eg. daattali
 
 # Select which links to show in the footer
 footer-links-active:
@@ -56,12 +59,15 @@ footer-links-active:
   facebook: false
   email: true
   twitter: true
+  google-plus: false
   github: true
   linkedin: false
   xing: false
   stackoverflow: false
   instagram: true
+  snapchat: false
   youtube: false
+  spotify: false
 
 # Select which share links to show in posts
 share-links-active:
