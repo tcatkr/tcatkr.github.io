@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Adagio signature blends: Pumpkin Potion
-subtitle: Harry Potter tea!
-tags: [Adagio, pumpkin, tea]
+title: Adagio signature blends: Pumpking Potion
+subtitle: Harry Potter tea.
+tags: [tea, pumpkin, autumn]
 ---
 
-<img src="/img/28092016/tea-label.jpg" alt="label of the pumpking potion tea"> 
+<img src="/img/28092016/tea-label.jpg" alt="label of the pumpking potion tea" align="center"/> 
 
 Autumn is here, so it seems fitting to resurrect from my archives the review I wrote of the [Pumpking Potion](http://www.adagio.uk.com/signature_blend/blend.html?blend=7569) tea, from the [Magic Potions](http://www.adagio.uk.com/signature_blend/group.html?group=23) signature blends collection from [Adagio Teas](http://adagioteas.tumblr.com/).
 
