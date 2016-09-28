@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Work in progress
 subtitle: Updating the blog, this could take a while
 tags: [this blog, updates]

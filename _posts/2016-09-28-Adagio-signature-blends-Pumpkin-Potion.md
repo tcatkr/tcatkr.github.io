@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Adagio signature blends: Pumpking Potion
+title: Adagio signature blends Pumpking Potion
 subtitle: Harry Potter tea.
-tags: [tea, pumpkin, autumn]
+tags: [Adagio teas, tea, pumpkin, autumn]
 ---
 
 <img src="/img/28092016/tea-label.jpg" alt="label of the pumpking potion tea" align="center"/> 
