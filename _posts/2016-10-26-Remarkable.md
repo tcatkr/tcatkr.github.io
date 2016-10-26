@@ -18,7 +18,7 @@ First, I have a confession to make: I hate markdown.
 Well, I don't really hate it, I just don't think it's easier than using a [WYSIWYG editor](https://en.wikipedia.org/wiki/WYSIWYG).
 Yeah, moving around with a mouse is slower than doing everything with a keyboard. But typing double the digits to add formatting isn't that convenient, and I need a preview of what I am writing that shows the formatted text.
 
-**Remarkable does exactly that; it has a typing area that works both with typing formatting commands and a WYSUWYG editor, and a preview area.**
+**Remarkable does exactly that: it has a typing area that works both with typing formatting commands and a WYSUWYG editor, and a preview area.**
 
 This is especially useful for links, images, and code formatting, where nested elements can get out of hand if I try to do it all in a plan text editor.
 
