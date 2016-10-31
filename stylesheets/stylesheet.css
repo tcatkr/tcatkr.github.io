@@ -177,35 +177,6 @@ sub {
 /* Embedded content
    ========================================================================== */
 
-/*Bubble*/
-
-.bubble
-{
-position: relative;
-width: 250px;
-height: 500px;
-padding: 0px;
-background: #FF9E9E;
--webkit-border-radius: 10px;
--moz-border-radius: 10px;
-border-radius: 10px;
-}
-
-.bubble:after
-{
-content: '';
-position: absolute;
-border-style: solid;
-border-width: 15px 15px 0;
-border-color: #FF9E9E transparent;
-display: block;
-width: 0;
-z-index: 1;
-margin-left: -15px;
-bottom: -15px;
-left: 25%;
-}
-
 
 /**
  * Remove border when inside `a` element in IE 8/9/10.
