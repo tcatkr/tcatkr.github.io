@@ -443,9 +443,10 @@ p {
 
 a {
   /* color: #2879d0;*/
-  /*color: #4C75D1;*/
-    color: #FF9E9E;
+  /* color: #4C75D1;*/
+  color: #FF9E9E;
 }
+
 a:hover {
   /* color: #2268b2; */
   color: #92AAE1;
