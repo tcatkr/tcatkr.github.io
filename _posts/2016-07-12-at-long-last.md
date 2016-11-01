@@ -2,7 +2,7 @@
 layout: post
 title: At long last...
 subtitle: ...comes an update.
-tags: [personal, projects, progress update]
+tags: [personal, projects, progress, update]
 ---
 
 It has been ages since my last updated and I have ended up negleting this blog again.
