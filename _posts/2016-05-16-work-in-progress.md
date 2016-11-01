@@ -1,7 +1,7 @@
 ---
 title: Work in progress
 subtitle: Updating the blog, this could take a while
-tags: [this blog, updates]
+tags: [this blog]
 --- 
 
 I am updating the blog so a few links or other things might be broken right now.
