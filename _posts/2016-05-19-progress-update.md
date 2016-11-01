@@ -2,7 +2,7 @@
 layout: post
 title: Progress update
 subtitle: Weekly progress update on this blog and life in general...
-tags: [personal, progress, update]
+tags: [personal, update]
 ---
 
 For the sake of keeping this blog going, I have decided that I will write progress updates every week.
