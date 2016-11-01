@@ -2,7 +2,7 @@
 layout: post
 title: Summer update
 subtitle: Progress update and a couple of pictures.
-tags: [personal, projects, update]
+tags: [personal, projects]
 ---
 
 <img src="/img/08082016/turin.jpg" alt="Turin" align="right" height="350" width="350" style="margin:10px"> Not as much progress as I wanted, but I am feeling very positive and optimistic, which is no doubt the result of the one week holiday I took last week: I really needed some time off to rest and decompress.
