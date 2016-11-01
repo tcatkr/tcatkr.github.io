@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About me...
-subtitle: ...and stuff you should see all over the internet.
+title: About me
+subtitle: A list of my projects and some useful links
 ---
 All links will open in the same tab/window. Right-click to keep this page open and open links in a new tab/window.
 
