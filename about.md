@@ -1,21 +1,26 @@
 ---
 layout: page
-title: About me
-subtitle: Global Submission Manager @ 505 Games. Vegetarian, whovian, metaller. Likes cats, tea, videogames, books, art. Supports equal rights and body-positive thinking.
+title: About me...
+subtitle: ...and stuff you should see all over the internet.
 ---
+All links will open in the same tab/window. Right-click to keep this page open and open links in a new tab/window.
 
-# Who is Melyanna?
+## My website
 
-<img src="/img/avatar/fluffy_avatar.jpg" alt="Picture of a cat in front of a pc" align="left" style="PADDING-RIGHT: 10px" /> I am an old cat lady who spends way too much time daydreaming.
+* [Melyanna.net](http://melyanna.net/) • this is my landing page. Currently work in progress.
 
-I work in the video games industry and enjoy my job very much.
+## Places I haunt
 
-When I am not working, I spend my time playing videogames, table-top games (mostly RPGs, but board games too), reading all sorts of genres, and creating mediocre art.
+* [My about.me page](https://about.me/chiara.pasquini) • here you'll find more professional info and links.
+* [Tumblr](http://melyanna.tumblr.com/) • my art blog, with bonus cats and tea reviews.
 
-My all time favourite films and TV series are: Battlestar Galactica, Star Trek, Firefly, Barry Lyndon and Blade Runner.
+## Places I haunt... In Italian
 
-I am vegetarian and my favourite foods are pizza (how original) and French fries.
+* [Taccuino digitale](https://taccuinodigitale.wordpress.com/) • this is my wordpress blog.
 
-I drink way too much tea and my kettle is my best friend.
+## Useful stuff, and things I like
 
-I live with my partner Rodolfo (aka: Gnagnulo) and five rescued cats: Penelope, Sgorgo, Polifemo, Psycho and Fluffy.
+* [Twine](http://twinery.org/) • An open-source tool for making interactive stories and games. Very easy learning curve, lots of fun.
+* [Sortingh.at](http://www.sortingh.at/) •  Tool that gives personalized resources to help get started making games. By [Zoë Quinn](http://www.unburntwitch.com/).
+* [Icon generators](http://www.icongenerators.net/index.html) • Make cool avatars and icons, like the ones I am using in this blog.
+* [Subtle Patterns](http://subtlepatterns.com/) • The background images of this blog come from this site.
