@@ -43,6 +43,7 @@ author:
   facebook: yourname  # eg. daattali
   github: melyanna    # eg. daattali
   twitter: OoMelyannaoO   # eg. daattali
+  reddit: yourname    # eg. daattali
   google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
   linkedin: yourlink  # eg. "pub/dean-attali/8/946/143"
   xing: yourname      # eg. daattali
@@ -60,6 +61,7 @@ footer-links-active:
   twitter: true
   google-plus: false
   github: true
+  reddit: false
   linkedin: false
   xing: false
   stackoverflow: false
