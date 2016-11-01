@@ -2,7 +2,7 @@
 layout: post
 title: Throwback Thursday
 subtitle: TBT - aka that moment when the Payday Gang got me...
-tags: personal TBT
+tags: personal
 ---
 
 <img src="/img/11022016/TBT.jpg" alt="a picture of Melyanna and two Payday2 cosplayers" align="left" style="PADDING-RIGHT: 5px"/> This picture was taken in October 2014 at [Lucca Comics and Games](http://www.luccacomicsandgames.com/it/lcg/home/), the biggest Con in Italy, and is one of the few photos of me you can find on the internet.
