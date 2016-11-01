@@ -2,7 +2,7 @@
 layout: post
 title: Throwback Thursday - art
 subtitle: Tom Riddle. And old illustration.
-tags: [Tom Riddle, Harry Potter, art, TBT, Voldemort]
+tags: [art, TBT]
 ---
 
 <img src="/img/18022016/tom.jpg" alt="a pencil portrait of Tom Riddle" align="left" style="PADDING-RIGHT: 15px"/> For Throwback Thursday this week I will be sharing an old illustration of mine I am still quite happy with.
