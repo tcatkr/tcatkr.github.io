@@ -2,7 +2,7 @@
 layout: post
 title: Progress update, May 26
 subtitle: Weekly progress update on this blog and life in general...
-tags: [personal, this blog, progress update]
+tags: [personal, progress, update]
 ---
 
 It's Thursday already, so it's time for another of my progress updates.
