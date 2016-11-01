@@ -2,7 +2,7 @@
 layout: post
 title: Long time no seen...
 subtitle: ... but I am back. Hopefully.
-tags: [travel, personal]
+tags: [personal]
 ---
 
 <img src="/img/07032016/chelseat.jpg" alt="Chelsea stadium" align="left" style="PADDING-RIGHT: 15px; padding-bottom: 15px;"/> It's been quite some time since my last update, and I feel a little guilty for temporarily abandoning this blog.
