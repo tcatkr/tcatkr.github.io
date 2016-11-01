@@ -2,7 +2,7 @@
 layout: post
 title: Remarkable
 subtitle: A github compatible markdown text editor
-tags: [Hemingway, writing, Remarkable, productivity]
+tags: [Hemingway, Remarkable, productivity]
 ---
 
 [A while ago](https://melyanna.github.io/2016-08-15-progress-with-c25k/), I covered one of my favourite text editing tools: [Hemingway](http://www.hemingwayapp.com/).
