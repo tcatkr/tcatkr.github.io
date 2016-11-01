@@ -25,7 +25,8 @@ description: Blog, scrapbook, and virtual space for my experiments
 navbar-links:
   Home: ""
   About Me: "about"
-  Archive: "tags"
+  Archive: "archive"
+  Tags: "tags"
   Subscribe: "subscribe"
   ?: "search"
 
