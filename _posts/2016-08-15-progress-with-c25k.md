@@ -2,7 +2,7 @@
 layout: post
 title: Couch to 5Km and Hemingway...
 subtitle: ...I am running again!
-tags: [personal, running, writing, Hemingway]
+tags: [personal, productivity, Hemingway]
 ---
 
 
