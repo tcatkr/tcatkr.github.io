@@ -23,12 +23,12 @@ description: Blog, scrapbook, and virtual space for my experiments
 
 # List of links in the navigation bar
 navbar-links:
-  Home: "http://melyanna.net/"
   Blog: ""
   About Me: "about"
   Archive:
       - Tag cloud: "tags"
       - Table of content: "toc"
+  Website: "http://melyanna.net/"
   Subscribe: "subscribe"
   ?: "search"
 
