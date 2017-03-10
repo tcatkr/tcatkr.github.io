@@ -1,25 +1,8 @@
 ---
-
 layout: post
-
 title: Twine 2 - introduction
-
 subtitle: An introduction to Twine 2
-
-tags:
-
-  - Twine
-
-  - Harlowe
-
-  - Snowman
-
-  - Sugarcube
-
-  - tutorials
-
-published: true
-
+tags: [Twine, Harlowe, Snowman, Sugarcube, tutorials]
 ---
 
 [Twine](http://twinery.org/) is an open-source tool for creating interactive, nonlinear fiction.
