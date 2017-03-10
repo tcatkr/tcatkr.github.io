@@ -56,19 +56,13 @@ I will focus on Twine 2 and Harlowe. If you are interested in using Sugarcube, [
 I will update this section with links as I write new posts, but you can also browse [the Twine tag](https://melyanna.github.io/tags/Twine/) to see more about this subject.
 
 *   Creating your first story in Harlowe
-
 *   Using variables to add RPG elements: inventory, hit points, coins
-
 *   Special passages: startup, header, footer
-
 *   Customise the look and feel of your story with CSS
-
 *   Publish your game
 
 ### Resources
 
 *   [Official Website](http://twinery.org/)
-
 *   [Wiki](http://twinery.org/wiki/)
-
 *   [Forum](http://twinery.org/forum/)
