@@ -42,12 +42,11 @@ It is possible to implement game mechanics in a story written in Harlowe, though
 This [RPG prototype](http://ifdb.tads.org/viewgame?id=fpr5wg1hfacmcr3v) by Chris Martens was built with Harlowe, as well as this [experiment of mine](https://melyanna.github.io/ToAS/dungeoncrawler.html), still in WIP format. (You can't finish the game and some links are broken, but it is good to show some advanced features).
 
 **Sugarcube**: good for advanced users and for authors who want to have a better support for game like features.
-
 A great game developed with Sugarcube is [Scaffold 22](http://rage-productions.com/).
 
 **Snowman:** only recommended for users with a good knowledge of Javascript and coding. It is great if you want to use the main engine and write your own functions. [Birdland](http://birdland.camp/) is an awesome game built with Snowman.
 
-More details are available [in the wiki](http://twinery.org/wiki/twine2:how_to_choose_a_story_format).
+More details on picking a story format are available [in the wiki](http://twinery.org/wiki/twine2:how_to_choose_a_story_format).
 
 I will focus on Twine 2 and Harlowe. If you are interested in using Sugarcube, [here is a great tutorial](http://www.adamhammond.com/twineguide/) by Adam Hammond.
 
