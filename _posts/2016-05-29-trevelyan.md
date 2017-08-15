@@ -10,4 +10,4 @@ tags: art
 
 
 Evelyn Trevelyan, circle mage.
-Colored pencils nd white gel pen on parchment paper.
+Colored pencils and white gel pen on parchment paper.
