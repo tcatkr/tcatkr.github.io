@@ -3,7 +3,6 @@ layout: post
 title: Elementary OS
 subtitle: First thoughts on this distro
 tags: [Elementary, Ubuntu, Xubuntu, Open Source]
-image: /img/18082017/e-os.png
 ---
 
 I have been running [Ubuntu](https://www.ubuntu.com/) and then [Xubuntu](https://xubuntu.org/) on my laptop for quite a long time, and loved both. 
@@ -21,3 +20,5 @@ The installation went perfectly well, thanks to [Etcher](https://etcher.io/), an
 
 I’ll be sharing more thoughts on this distro as I get to know it better, but so far I can say I am impressed.
 (It does look good, doesn't it?)
+
+<img src="/img/18082017/e-os.png" alt="desktop screenshot showing the Elementary GUI" align="center"/>
