@@ -10,6 +10,6 @@ I am planning an update to this blog's "backend" - so to speak. I will definitel
 I am also considering the option of building the blog locally, though I enjoy how easy it is to update the blog now that it's build by GitHub Pages automatically.
 
 The blog might look a bit weird in the next few days and over the weekend, but it's really easy to restore old posts, so I expect it to be back up fairly quickly.
-(Unless I just jinxed it, that is..)
+(Unless I just jinxed it, that is...)
 
 
