@@ -2,7 +2,7 @@
 layout: post
 title: Elementary OS
 subtitle: First thoughts on this distro
-tags: [Elementary, Ubuntu, Xubuntu, Open Source]
+tags: [Elementary, Ubuntu, Xubuntu, open-source]
 ---
 
 I have been running [Ubuntu](https://www.ubuntu.com/) and then [Xubuntu](https://xubuntu.org/) on my laptop for quite a long time, and loved both. 
