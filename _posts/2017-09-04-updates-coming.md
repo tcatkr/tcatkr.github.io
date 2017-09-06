@@ -2,7 +2,7 @@
 layout: post
 title: Updates are coming
 subtitle: Planning a major blog update
-tags: [Jekyll, beautiful-jekyll, github]
+tags: [Jekyll, beautiful-jekyll, Github]
 ---
 
 I am planning an update to this blog's "backend" - so to speak. I will definitely keep Dean's amazing theme [Beautiful Jekyll](http://deanattali.com/beautiful-jekyll/), but I am getting tired of the changes I made to the stylesheet and the theme itself has undergone many updates since when I installed it - the last one doing somethig I had already done, but much better.
