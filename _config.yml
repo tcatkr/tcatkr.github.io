@@ -17,7 +17,7 @@ baseurl: ""
 title: Tea time
 
 # Short description of your site
-description: Blog, scrapbook, and virtual space for my experiments
+description: Blog, scrapbook, and virtual space for my experiments.
 
 # --- Navigation bar options --- #
 
@@ -39,6 +39,18 @@ avatar: "/img/avatar/melyanna.png"
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
 # title-img: /path/to/image
+
+# --- Background colour/image options --- #
+
+# By default, the navigation bar and footer have a light gray background, and the main page
+# has a white background. You can specify a different background colour or a background image
+# for the navigation bar, the main page, and the footer.
+# navbar-col: "orange"
+navbar-img: "/img/bg/stardust.png"
+# footer-col: "blue"
+footer-img: "/img/bg/stardust.png"
+# page-col: "#FF0000"
+page-img: "/img/bg/noise.png"
 
 # --- Footer options --- #
 
@@ -93,14 +105,13 @@ share-links-active:
   linkedin: false
   xing: false
   stackoverflow: false
-  
+
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
 url-pretty: "melyanna.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-#disqus: ""
 disqus: "melyannagithubio"
 
 # Fill in your Google Analytics ID to track your website using GA
