@@ -11,7 +11,6 @@ All links will open in the same tab/window. Right-click to keep this page open a
 
 ## Places I haunt
 
-* [My about.me page](https://about.me/chiara.pasquini) • here you'll find more professional info and links.
 * [Tumblr](http://melyanna.tumblr.com/) • my art blog, with bonus cats and tea reviews.
 
 ## Places I haunt... In Italian
