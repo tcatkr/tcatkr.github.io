@@ -27,7 +27,7 @@ navbar-links:
   About Me: "about"
   Archive:
       - Tag cloud: "tags"
-      - Table of content: "toc"
+      # --- - Table of content: "toc" --- #
   Website: "http://melyanna.net/"
   Subscribe: "subscribe"
   ?: "search"
