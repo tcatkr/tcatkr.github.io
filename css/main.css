@@ -26,18 +26,18 @@ p {
 }
 p a {
   /* text-decoration: underline */
-  color: #6C71C4;
+  color: #D33682;
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
 a {
-  color: #6C71C4;
+  color: #D33682;
 }
 a:hover,
 a:focus {
-  color: #6C71C4;
+  color: #D33682;
 }
 blockquote {
   color: #808080;
@@ -129,14 +129,14 @@ img {
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
   font-weight: 800;
-  color: #6C71C4;
+  color: #D33682;
 }
 
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #8E438E;
+  color: #D33682;
 }
 
 .navbar-custom .navbar-brand-logo {
@@ -289,7 +289,7 @@ footer {
 }
 
 footer a {
-  color: #6C71C4;
+  color: #D33682;
 }
 
 footer .list-inline {
@@ -407,14 +407,14 @@ footer .theme-by {
 }
 
 .blog-tags a {
-  color: #6C71C4;
+  color: #D33682;
   text-decoration: none;
   padding: 0px 5px;
 }
 
 .blog-tags a:hover {
   border-radius: 2px;
-  color: #6C71C4;
+  color: #D33682;
   background-color: #CCC;
 }
 
@@ -610,8 +610,8 @@ footer .theme-by {
 .pager li a:hover,
 .pager li a:focus {
   color: #FFF;
-  background: #6C71C4;
-  border: 1px solid #6C71C4;
+  background: #D33682;
+  border: 1px solid #D33682;
 }
 
 .pager {
