@@ -343,7 +343,7 @@ footer .theme-by {
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: #660066;
+  color: #D33682;
 }
 
 .post-preview .post-title {
@@ -388,7 +388,7 @@ footer .theme-by {
   width: 192px;
 }
 .post-preview .post-read-more {
-  /* font-weight: 800;*/
+  font-weight: 800;
 }
 
 @media only screen and (min-width: 768px) {
@@ -401,7 +401,7 @@ footer .theme-by {
 
 .blog-tags {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #999;
+  color: #D33682;
   font-size: 15px;
   margin-bottom: 30px;
 }
