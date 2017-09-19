@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Another update
-subtitle: Yay for productiviy and being ill
+subtitle: Yay for productivity and sore throats...
 tags: [Elementary, Twine, productivity, gaming, videogames]
 ---
 
