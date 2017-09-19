@@ -105,6 +105,11 @@ img {
   }
 }
 
+.text-muted {
+    color: #93A1A1;
+}
+
+
 /* --- Navbar --- */
 
 .navbar-custom {
