@@ -357,7 +357,7 @@ footer .theme-by {
 }
 .post-preview .post-meta,
 .post-heading .post-meta {
-  color: #660066;
+  color: #D33682;
   font-size: 18px;
   font-style: italic;
   margin: 0 0 10px;
@@ -388,7 +388,7 @@ footer .theme-by {
   width: 192px;
 }
 .post-preview .post-read-more {
-  font-weight: 800;
+  /* font-weight: 800;*/
 }
 
 @media only screen and (min-width: 768px) {
