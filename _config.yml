@@ -47,11 +47,11 @@ avatar: "/img/avatar/melyanna.png"
 # for the navigation bar, the main page, and the footer.
 # navbar-col: "orange"
 
-navbar-img: "/img/bg/stardust.png"
+# navbar-img: "/img/bg/stardust.png"
 # footer-col: "blue"
-footer-img: "/img/bg/stardust.png"
+# footer-img: "/img/bg/stardust.png"
 # page-col: "#FF0000"
-page-img: "/img/bg/noise.png"
+# page-img: "/img/bg/noise.png"
 
 # --- Footer options --- #
 
