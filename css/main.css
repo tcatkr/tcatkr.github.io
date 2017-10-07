@@ -37,7 +37,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #0085a1;
+  color: #3c1362;
 }
 blockquote {
   color: #808080;
@@ -136,7 +136,7 @@ img {
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #0085a1;
+  color: #3c1362;
 }
 
 .navbar-custom .navbar-brand-logo {
@@ -401,7 +401,7 @@ footer .theme-by {
 
 .blog-tags {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #999;
+  color: #3c1362;
   font-size: 15px;
   margin-bottom: 30px;
 }
@@ -414,7 +414,7 @@ footer .theme-by {
 
 .blog-tags a:hover {
   border-radius: 2px;
-  color: #008AFF;
+  color: #3c1362;
   background-color: #CCC;
 }
 
