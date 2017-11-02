@@ -47,11 +47,11 @@ avatar: "/img/avatar/tonks.png"
 # for the navigation bar, the main page, and the footer.
 # navbar-col: "orange"
 
-navbar-img: "/img/bg/wild-flowers.png"
+navbar-img: "/img/bg/natural-paper.png"
 # footer-col: "blue"
-footer-img: "/img/bg/wild-flowers.png"
+footer-img: "/img/bg/natural-paper.png"
 # page-col: "#FF0000"
-page-img: "/img/bg/noise.png"
+page-img: "/img/bg/natural-paper.png"
 
 # --- Footer options --- #
 
