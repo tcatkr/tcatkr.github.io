@@ -25,6 +25,7 @@ description: Blog, scrapbook, and virtual space for my experiments.
 navbar-links:
   Blog: ""
   About Me: "about"
+  Archive: "https://melyanna.github.io/tags/"
   Website: "http://melyanna.net/"
   Subscribe: "subscribe"
   ?: "search"
