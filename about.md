@@ -9,10 +9,6 @@ All links will open in the same tab/window. Right-click to keep this page open a
 
 * [Melyanna.net](http://melyanna.net/) • this is my landing page. Currently work in progress.
 
-## Places I haunt
-
-* [Tumblr](http://melyanna.tumblr.com/) • my art blog, with bonus cats and tea reviews.
-
 ## Places I haunt... In Italian
 
 * [Taccuino digitale](https://taccuinodigitale.wordpress.com/) • this is my wordpress blog.
