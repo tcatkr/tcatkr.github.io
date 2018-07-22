@@ -104,9 +104,13 @@ Many personalization settings in `_config.yml`, such as setting your name and si
 
 ### Allowing users to leave comments
 
-If you want to enable comments on your site, Beautiful Jekyll supports the [Disqus](https://disqus.com/) comments plugin.  To use it, simply sign up to Disqus and add your Disqus shortname to the `disqus` parameter in the `_config.yml`.
+If you want to enable comments on your site, Beautiful Jekyll supports either the [Disqus](https://disqus.com/) comments plugin or [Facebook](https://developers.facebook.com/docs/plugins/comments) comments.
 
-If the `disqus` parameter is set in the configuration file, then all blog posts will have comments turned on by default. To turn off comments on a particular blog post, add `comments: false` to the YAML front matter. If you want to add comments on the bottom of a non-blog page, add `comments: true` to the YAML front matter.
+To use Disqus, simply sign up to [Disqus](https://disqus.com/) and add your Disqus shortname to the `disqus` parameter in the `_config.yml` file.
+
+To use Facebook comments, create a Facebook app using [Facebook developers](https://developers.facebook.com/docs/apps/register), and add the Facebook App ID to the `fb_comment_id` parameter in `_config.yml`.
+
+If either `disqus` or `fb_comment_id` parameters are set in the configuration file, then all blog posts will have comments turned on by default. To turn off comments on a particular blog post, add `comments: false` to the YAML front matter. If you want to add comments on the bottom of a non-blog page, add `comments: true` to the YAML front matter.
 
 ### Adding Google Analytics to track page views
 
@@ -143,7 +147,7 @@ image       | If you want to add a personalized image to your blog post that wil
 share-img   | If you want to specify an image to use when sharing the page on Facebook or Twitter, then provide the image's full URL here.
 social-share | If you don't want to show buttons to share a blog post on social media, use `social-share: false` (this feature is turned on by default).
 use-site-title | If you want to use the site title rather than page title as HTML document title (ie. browser tab title), use `use-site-title: true`. When set, the document title will take the format `Site Title - Site Description` (eg. `My website - A virtual proof that name is awesome!`). By default, it will use `Page Title` if it exists, or `Site Title` otherwise.
-layout      | What type of page this is (default is `blog` for blog posts and `page` for other pages. You can use `minimal` if you don't want a header and footer)
+layout      | What type of page this is (default is `post` for blog posts and `page` for other pages. You can use `minimal` if you don't want a header and footer)
 js          | List of local JavaScript files to include in the page (eg. `/js/mypage.js`)
 ext-js      | List of external JavaScript files to include in the page (eg. `//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js`). External JavaScript files that support [Subresource Integrity (SRI)](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) can be specified using the `href` and `sri` parameters eg.<br/>`href: "//code.jquery.com/jquery-3.1.1.min.js"`<br/>`sri: "sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="`
 css         | List of local CSS files to include in the page
@@ -187,6 +191,9 @@ Want your website featured here? [Contact me](http://deanattali.com/aboutme#cont
 | [reactionic.github.io](http://reactionic.github.io) | Create iOS and Android apps with React and Ionic |
 | [ja2-stracciatella.github.io](http://ja2-stracciatella.github.io) | Jagged Alliance 2 Stracciatella |
 | [ddocent.com](http://ddocent.com/) | RADSeq Bioinformatics and Beyond |
+| [guitarlessons.org](https://www.guitarlessons.org/) | Free online guitar lessons for all |
+| [terremotocentroitalia.info](https://www.terremotocentroitalia.info/) | Information about the 2016 Italy earthquake |
+
 
 ### Personal websites
 
@@ -201,8 +208,8 @@ Want your website featured here? [Contact me](http://deanattali.com/aboutme#cont
 | [sjackman.ca](http://sjackman.ca) | Shaun Jackman | PhD candidate in bioinformatics |
 | [anudit.in](http://www.anudit.in/) | Anudit Verma | Engineering student |
 | [sharepointoscar.github.io](http://sharepointoscar.github.io) | Oscar Medina | Independent Hacker |
-| [ocram85.github.io](https://ocram85.github.io) | Marco Blessing | A personal blog about PowerShell and automation |
-
+| [ocram85.com](https://ocram85.com) | Marco Blessing | A personal blog about PowerShell and automation |
+| [khanna.cc](https://khanna.cc/) | Harry Khanna | Law and software |
 
 ## Advanced: Local development using Docker
 
@@ -220,8 +227,8 @@ Beautiful Jekyll is meant to be so simple to use that you can do it all within t
 
     ```bash
     cd <repository_folder>
-    docker build -t beautiful-jekyll $PWD
-    docker run -d -p 4000:4000 --name beautiful-jekyll -v $PWD:/srv/jekyll beautiful-jekyll
+    docker build -t beautiful-jekyll "$PWD"
+    docker run -d -p 4000:4000 --name beautiful-jekyll -v "$PWD":/srv/jekyll beautiful-jekyll
     ```
 
 
