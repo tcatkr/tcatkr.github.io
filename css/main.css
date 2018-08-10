@@ -788,3 +788,8 @@ td.gutter {
     background-color: #724565;
     border-color: #555;
 }
+
+
+a.btn.btn-primary.tag-btn:hover {
+  color: #724565;
+}
