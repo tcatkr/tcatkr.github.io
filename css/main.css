@@ -782,3 +782,9 @@ td.gutter {
   font-style: italic;
   font-size: 16px;
 }
+
+.btn-primary {
+    color: #fff;
+    background-color: #A44B8A;
+    border-color: #2e6da4;
+}
