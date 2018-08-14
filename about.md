@@ -11,7 +11,7 @@ All links will open in the same tab/window. Right-click to keep this page open a
 
 ## Places I haunt... In Italian
 
-* [Taccuino digitale](https://taccuinodigitale.wordpress.com/) • this is my wordpress blog.
+* [Taccuino digitale](https://taccuinodigitale.net/) • this is my wordpress blog.
 
 ## Useful stuff, and things I like
 
