@@ -5,7 +5,6 @@ subtitle: More black and gold ink art for inktober.
 tags: [art, inktober, halloween]
 image: /img/27102018/square-tiny-2018-10-27.png
 share-img: /img/27102018/square-tiny-2018-10-27.png
-bigimg: /img/27102018/tiny-2018-10-27.png
 ---
 
 It is grey and rainy here, so finally it looks like proper autumn, which means I'll spend my afternoon curled up on the couch with a cup of hot tea, watching my partner play Red Dead Redemption 2.
