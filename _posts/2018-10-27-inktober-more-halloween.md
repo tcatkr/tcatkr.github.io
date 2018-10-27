@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Inktober | Day 26 | Witch
+title: Inktober | Day 27 | Witch
 subtitle: More black and gold ink art for inktober.
 tags: [art, inktober, halloween]
 image: /img/27102018/square-tiny-2018-10-27.png
