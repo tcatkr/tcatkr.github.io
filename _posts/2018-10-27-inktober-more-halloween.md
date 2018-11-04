@@ -11,7 +11,7 @@ It is grey and rainy here, so finally it looks like proper autumn, which means I
 
 Between last night and today, I completed another entry for the [inktober](https://inktober.com/) challenge, and I am actually pretty happy with it.
 
-The combination of markers and metallic inck is quite addictive: I am loving the results so much, I'll most likely do more of these in the near future.
+The combination of markers and metallic ink is quite addictive: I am loving the results so much, I'll most likely do more of these in the near future.
 
 <img src="/img/27102018/tiny-2018-10-27.png" alt="A gold and ink drawing of a woman in a field of flowers, with trees and the moon in the background." align="center"/> 
 
