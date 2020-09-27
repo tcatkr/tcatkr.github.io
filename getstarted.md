@@ -33,6 +33,7 @@
 - You need to have a GitHub account. If you don't have one, [sign up here](https://github.com/join) - it takes one minute. This is where your website will live - if you sign up with username `johnsmith` then your website will be `https://johnsmith.github.io`.
 - It would be helpful to understand what Markdown is and how to write it. Markdown is just a way to take a piece of text and format it to look a little nicer.  For example, this whole instruction set that you're reading is written in markdown - it's just text with some words being bold/larger/italicized/etc. I recommend taking 5 minutes to learn markdown [with this amazingly easy yet useful tutorial](https://markdowntutorial.com/).
 
+
 ## Build your website in 3 steps
 
 Getting started is *literally* as easy as 1-2-3 :smile:
@@ -40,9 +41,23 @@ Scroll down to see the steps involved, but here is a 40-second video just as a r
 
 ![Installation steps](img/install-steps.gif)
 
-### 1. Fork this repository
+### Overview of steps required
 
-(Assuming you are on this page and logged into GitHub) Fork this repository by clicking the *Fork* button on the top right corner. Forking means that you now copied this whole project and all the files into your account.
+There are only three simple steps, ....  
+
+Here is a 40-second video ....
+
+<img src="../img/install-steps.gif" style="width:100%;" alt="Installation steps" />
+
+<div class="gs-section-01" markdown="1">
+
+### 1. Fork the Beautiful Jekyll repository 
+
+Fork the [repository](https://github.com/daattali/beautiful-jekyll) 
+by clicking the Fork button on the top right corner in GitHub.
+
+
+</div>
 
 ### 2. Rename the repository to `<yourusername>.github.io`
 
@@ -301,4 +316,4 @@ If you do fork or clone this project to use as a template for your site, I would
      font-size: 30px;
 }
 
-</style>
+</style />
